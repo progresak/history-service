@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb-typescript/base", "prettier"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error"
+    ],
+    "no-console": "off",
+    "indent": [
+      "error",
+      4
+    ],
+    "@typescript-eslint/indent": [
+      "error",
+      4
+    ]
+  }
+}
